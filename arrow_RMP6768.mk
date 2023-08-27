@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common_full_tablet.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Inherit from RMP6768 device
 $(call inherit-product, device/realme/RMP6768/device.mk)
@@ -31,7 +31,8 @@ PRODUCT_MANUFACTURER := Realme
 PRODUCT_MODEL := Realme Pad
 
 # Build Flags
-WITH_GAPPS := true
+ARROW_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 DEVICE_MAINTAINER := Rohit-Tiwari
