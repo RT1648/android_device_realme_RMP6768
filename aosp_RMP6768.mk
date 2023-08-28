@@ -18,24 +18,21 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common PixelExperience stuff.
+$(call inherit-product, vendor/aosp/config/common_full_tablet_wifionly.mk)
 
 # Inherit from RMP6768 device
 $(call inherit-product, device/realme/RMP6768/device.mk)
 
 PRODUCT_DEVICE := RMP6768
-PRODUCT_NAME := arrow_RMP6768
+PRODUCT_NAME := aosp_RMP6768
 PRODUCT_BRAND := Realme
 PRODUCT_MANUFACTURER := Realme
 PRODUCT_MODEL := Realme Pad
 
 # Build Flags
-ARROW_GAPPS := true
-TARGET_GAPPS_ARCH := arm64
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
-DEVICE_MAINTAINER := Rohit-Tiwari
 
 # Build info
 BUILD_FINGERPRINT := "realme/RMP2102/RE54C1L1:11/RP1A.200720.011/1677153829078:user/release-keys"
