@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_RMP6768.mk
+    $(LOCAL_DIR)/aosp_RMP6768.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_RMP6768-user \
-    arrow_RMP6768-userdebug \
-    arrow_RMP6768-eng
+    aosp_RMP6768-user \
+    aosp_RMP6768-userdebug \
+    aosp_RMP6768-eng
