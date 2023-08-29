@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_RMP6768.mk
+    $(LOCAL_DIR)/evolution_RMP6768.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_RMP6768-user \
-    cherish_RMP6768-userdebug \
-    cherish_RMP6768-eng
+    evolution_RMP6768-user \
+    evolution_RMP6768-userdebug \
+    evolution_RMP6768-eng
