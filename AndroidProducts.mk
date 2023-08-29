@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMP6768.mk
+    $(LOCAL_DIR)/cherish_RMP6768.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_RMP6768-user \
-    aosp_RMP6768-userdebug \
-    aosp_RMP6768-eng
+    cherish_RMP6768-user \
+    cherish_RMP6768-userdebug \
+    cherish_RMP6768-eng
