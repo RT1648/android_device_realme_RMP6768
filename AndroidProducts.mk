@@ -15,9 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_RMP6768.mk
+    $(LOCAL_DIR)/arrow_RMP6768.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_RMP6768-user \
-    evolution_RMP6768-userdebug \
-    evolution_RMP6768-eng
+    arrow_RMP6768-userdebug

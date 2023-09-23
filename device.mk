@@ -106,6 +106,7 @@ PRODUCT_PACKAGES += \
 # GcamGO
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt-V4
+
 # Audio configs
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
@@ -315,7 +316,7 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    hardware/google/interfaces \
+    hardware/interfaces \
     hardware/google/pixel \
     hardware/mediatek \
     $(DEVICE_PATH)
