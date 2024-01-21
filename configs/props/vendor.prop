@@ -158,6 +158,11 @@ debug.sf.enable_transaction_tracing=false
 debug.sf.predict_hwc_composition_strategy=0
 ro.sf.lcd_density=240
 
+# Suspend properties
+suspend.short_suspend_threshold_millis=2000
+suspend.short_suspend_backoff_enabled=true
+suspend.max_sleep_time_millis=40000
+
 # TEE
 ro.hardware.kmsetkey=trustonic
 ro.vendor.mtk_tee_gp_support=1
