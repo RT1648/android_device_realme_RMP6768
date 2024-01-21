@@ -43,6 +43,20 @@ ro.kernel.zio=38,108,105,16
 # Keyguard
 persist.wm.enable_remote_keyguard_animation=0
 
+# Log
+persist.log.tag.bt_stack=S
+persist.log.tag.CamX=S
+persist.log.tag.CHIUSECASE=S
+persist.log.tag.cnss-daemon=S
+persist.log.tag.CVP=S
+persist.log.tag.DeviceStatisticsService=S
+persist.log.tag.DrmLibTime=S
+persist.log.tag.FastChargingPreferenceController=S
+persist.log.tag.QC-time-services=S
+persist.log.tag.ResourcesCompat=S
+persist.log.tag.SYNX-UMD=S
+persist.log.tag.ultrasound_extn=S
+
 # Order
 ro.product.property_source_order=odm,vendor,product,system
 
