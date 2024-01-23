@@ -83,6 +83,7 @@ ro.hwui.render_ahead=20
 debug.sf.enable_gl_backpressure=1
 debug.sf.auto_latch_unsignaled=0
 debug.sf.treat_170m_as_sRGB=1
+debug.sf.enable_egl_image_tracker=1
 
 # DRAM
 ro.vendor.mtk_config_max_dram_size=0x800000000
