@@ -1,6 +1,4 @@
 type hal_miperf_default, domain;
-type proc_perfmgr, fs_type, proc_type;
-type sysfs_perfmgr, fs_type, sysfs_type;
 
 allow platform_app proc_perfmgr:dir { search };
 allow platform_app proc_perfmgr:file { ioctl read getattr open };

@@ -28,4 +28,3 @@ genfscon sysfs /devices/platform/odm/odm:hall_switch/wakeup                     
 
 # FEAS
 genfscon sysfs /module/perfmgr                                                                                                      u:object_r:sysfs_perfmgr:s0
-genfscon proc /perfmgr                                                                                                              u:object_r:proc_perfmgr:s0
