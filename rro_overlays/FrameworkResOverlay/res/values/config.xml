@@ -500,4 +500,7 @@
     
     <!-- Smartcharging -->
     <bool name="config_supportSmartCharging">true</bool>
+    
+    <!-- For Enabling Battery Heath -->
+    <bool name="config_supportBatteryHealth">true</bool>
 </resources>
