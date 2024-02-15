@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common DerpFest stuff.
+$(call inherit-product, vendor/derp/config/common_full_tablet.mk)
 
 # Viper
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
@@ -28,16 +28,20 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 $(call inherit-product, device/realme/RMP6768/device.mk)
 
 PRODUCT_DEVICE := RMP6768
-PRODUCT_NAME := arrow_RMP6768
+PRODUCT_NAME := derp_RMP6768
 PRODUCT_BRAND := Realme
 PRODUCT_MANUFACTURER := Realme
 PRODUCT_MODEL := Realme Pad
 
 # Flags
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BOOT_ANIMATION_RES := 1080
-DEVICE_MAINTAINER := Rohit-Tiwari
-ARROW_GAPPS := true
+TARGET_BOOT_ANIMATION_RES := 2160
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+USE_LEGACY_BOOTANIMATION := true
+DERP_BUILDTYPE := COMMUNITY
+TARGET_NOT_USES_BLUR := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
 
 # Build info
 BUILD_FINGERPRINT := "google/panther/panther:14/UQ1A.240205.002/11224170:user/release-keys"

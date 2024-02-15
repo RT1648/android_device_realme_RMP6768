@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_RMP6768.mk
+    $(LOCAL_DIR)/derp_RMP6768.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_RMP6768-userdebug
+    derp_RMP6768-user
